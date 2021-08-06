@@ -3,7 +3,7 @@ const fs = require('fs');
 // const remoteDataset = await Apify.openDataset('my-remote-data', { forceCloud: true });
 // Apify.main(async () => {
 //     const requestQueue = await Apify.openRequestQueue();
-//     await requestQueue.addRequest({ url: 'https://dothi.net/nha-dat-ban/' });
+//     await requestQueue.addRequest({ url: 'https://www.facebook.com/' });
 //
 //     const crawler = new Apify.PuppeteerCrawler({
 //         requestQueue,
@@ -13,7 +13,7 @@ const fs = require('fs');
 //             await Apify.utils.enqueueLinks({
 //                requestQueue,
 //                page,
-//                pseudoUrls: ['https://dothi.net/nha-dat-ban/'],
+//                pseudoUrls: ['https://www.facebook.com/'],
 //             });
 //         },
 //     });
