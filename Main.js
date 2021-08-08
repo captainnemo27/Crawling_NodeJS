@@ -40,10 +40,6 @@ Apify.main(async () => {
                 // throws an error, you could also catch it here
                 if (err) throw err;
             });
-            // await dataset.pushData({
-            //     url: request.url,
-            //     html: body,
-            // });
         },
     });
 
